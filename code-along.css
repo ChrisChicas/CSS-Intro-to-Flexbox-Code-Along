@@ -1,3 +1,27 @@
 nav {
-  display: none;
+  /* display: none; */
 }
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+.flex-basics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+aside {
+  min-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
